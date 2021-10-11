@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Zector";
+    src: url(fonts/Zector.otf);
+}
+
+#logo
+{
+    width: 50px;
+    height: 50px;
+
+    padding: 20px;
+    
+    image-rendering: optimizeQuality;
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Chrome */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+#header-bar
+{
+    background-image: linear-gradient(to bottom, #9900ff, rgba(255, 255, 255, 0));
+
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+
+    display: flex;
+}
+
+#header-bar-nav
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    text-align: right;
+}
+
+#header-bar-nav a
+{
+    color: white;
+    text-decoration: none;
+
+    margin: 10px;
+}
+
+#title
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-variant: small-caps;
+    
+    padding-right: 600px;
+}
+
+.paragraph
+{
+    width: 800px;
+
+    margin: 0 auto;
+
+    padding-left: 15px;
+
+    margin-top: 30px;
+    margin-bottom: 166px;
+
+    display: flex;
+}
+
+.paragraph img
+{
+    height: 50px;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    margin-right: 10px;
+}
+
+.texte
+{
+    margin-left: 30px;
+}
+
+#spotify
+{
+    background-image: linear-gradient(to right, rgba(30,215,96,0.6), rgba(30,215,96, 0));
+
+    border-left: 10px solid rgba(30,215,96, 1);
+}
+
+#tiktok
+{
+    background-image: linear-gradient(to right, rgba(37,244,238, 0.8), rgba(0,0,0,0.8), rgba(254,44,85, 0.8), rgba(254,44,85,0));
+
+    border-left: 10px solid #FE2C55;
+}
+
+#discord
+{
+    background-image: linear-gradient(to right, #2c2f33, rgba(44, 47, 51, 0));
+
+    border-left: 10px solid #7289DA;
+}
+
+#youtube
+{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(44, 47, 51, 0));
+
+    border-left: 10px solid red;
+}
+
+#steam
+{
+    background-image: linear-gradient(to right, rgba(42, 71, 94, 0.8), rgba(42, 71, 94, 0));
+
+    border-left: 10px solid black;
+}
+
+#insta
+{
+    background-image: linear-gradient(to right, rgba(131,58,180,0.8), rgba(225,48,108,0.8), rgba(247,119,55,0.8),rgba(247,119,55,0));
+
+    border-left: 10px solid #405DE6;
+}
+
+#cmc
+{
+    background-image: linear-gradient(to right, rgba(54,119,247,0.4), rgba(54,119,247,0));
+
+    border-left: 10px solid rgb(54,119,247);
+}
+
+.logo-and-title
+{
+    display: flex;
+}
+
+.click-me
+{
+    width: 50%;
+
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+.click-me a
+{
+    color: white;
+    font-style: italic;
+}
+
+h1, h2
+{
+    color: white;
+    font-family: "Zector", Arial, Helvetica, sans-serif;
+}
+
+h3
+{
+    color: darkgray;
+    font-family: Consolas;
+    font-size: 14px;
+
+    margin-left: 10px;
+}
+
+body
+{
+    background-image: url(img/synth-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p
+{
+    color: white;
+    font-family: Consolas;
+    font-size: 20px;
+}
+
+a
+{
+    color: #00b300;
+    font-weight: bold;
+    font-family: Consolas;
+}
+
+footer
+{
+    background-color: #1f0033;
+
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    margin-bottom: -80px;
+
+    padding: 30px;
+
+    text-align: center;
+}
+
+footer p
+{
+    font-size: 14px;
+}
+
